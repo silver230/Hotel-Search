@@ -31,15 +31,15 @@
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-*{
+/* *{
 
-background-color:grey; 
-   /* background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yI9FRzo/animated-glowing-red-smoke-or-gas-descending-falloff-slowly-against-transparent-background-in-4k-alpha-channel-embedded-with-4k-png-file_rz0emj24__F0013.png"); */
+background-color:grey;
+   /* background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yI9FRzo/animated-glowing-red-smoke-or-gas-descending-falloff-slowly-against-transparent-background-in-4k-alpha-channel-embedded-with-4k-png-file_rz0emj24__F0013.png");
  }
-/* .hotels{
+/* .hotels{ */
 
-  padding-left: 50px;
-} */
+  /* padding-left: 50px; */
+/* } */
 
 /* body{
     background-color: darkred;
@@ -51,6 +51,10 @@ background-color:grey;
 }
 h1{
     font-family: 'Notable', sans-serif;
+    text-align: center;
+}
+h2{
+  color:red;
 }
 .vertical {
     position: relative;
@@ -62,13 +66,9 @@ h1{
     -o-transform: rotate(270deg);  /* Opera 10.5 */
     -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
 }
-/* h1{
-    text-align: center;
-}
-h2{
-  color:red;
-}
-img{
+
+
+/* img{
     width: 100%;
     height: 500px;
 
@@ -82,4 +82,18 @@ img{
  }
  .bg-danger{
    text-align: center;
+ }
+ .well{
+   padding:1px;
+   margin:1px;
+   background-color: grey;
+ }
+ .jumbotron{
+   background-color: grey;
+ }
+ .breakfast{
+    background-color: grey;
+ }
+ .image{
+    margin-left: 65px;
  }
