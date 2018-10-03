@@ -23,6 +23,10 @@ header{
 position: relative;
 left: 20%;
 }*/
-.carousel-item {
+/*.carousel-item {
   height:40%;
 }
+.carousel-caption{
+color: white;
+font-weight: bolder;
+}*/
