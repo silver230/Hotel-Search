@@ -1,7 +1,7 @@
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
+    /* background-color: #4CAF50; */
+    color: black;
+    padding:8px;
     font-size: 16px;
     border: none;
 }
@@ -23,7 +23,7 @@
 }
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px;
     text-decoration: none;
     display: block;
 }
@@ -41,10 +41,10 @@ background-color:grey;
   /* padding-left: 50px; */
 /* } */
 
-/* body{
-    background-color: darkred;
+body{
+    background-color: #F38211;
 
-} */
+}
 .img{
     size: 100%;
     background-repeat: none;
@@ -97,3 +97,10 @@ h2{
  .image{
     margin-left: 65px;
  }
+ .hotel{
+display:flex;
+flex-direction: row;
+padding:5px;
+text-align:center;
+margin-left: 60px;
+    }
