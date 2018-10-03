@@ -10,6 +10,8 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    padding:10px;
+    border-radius: 2px solid grey;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -42,7 +44,7 @@ background-color:grey;
 /* } */
 
 body{
-    background-color: #c5eada  ;
+    background-color: #c6eada  ;
 
 }
 .img{
@@ -86,13 +88,13 @@ h2{
  .well{
    padding:1px;
    margin:1px;
-   background-color: grey;
+   background-color: #ead4b9;
  }
  .jumbotron{
-   background-color: grey;
+   background-color:#ead4b9;
  }
  .breakfast{
-    background-color: grey;
+    background-color: #ead4b9;
  }
  .image{
     margin-left: 65px;
