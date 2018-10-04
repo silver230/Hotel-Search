@@ -4,10 +4,14 @@ body{
 
 h1 {
     text-align: center;
-    font-family: 'Luckiest Guy', cursive;}
+    font-family: 'Ultra', serif;
+}
 img{
     width: 100%;
     height: 500px;
+}
+demo.p{
+    color: darkred
 }
 myModal{
     display: none;
