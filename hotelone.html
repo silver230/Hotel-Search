@@ -7,9 +7,12 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Notable" rel="stylesheet">
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="" charset="utf-8"></script>
     <title>DUNGA BEACH HOTEL</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
 <body>
@@ -22,7 +25,6 @@
         <div class="dropdown">
             <button class="dropbtn">HOTELS AVAILABLE</button>
             <div class="dropdown-content">
-                <button class="dropbtn">price info</button>
                 <a href="#">PRICE INFO</a>
                 <a href="#">GALLERY</a>
                 <a href="#">BOOK NOW</a>
@@ -59,6 +61,29 @@
                 <a href="#">GALLERY</a>
                 <a href="#">BOOK NOW</a>
             </div>
+        </div>
+    </div>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="container">
