@@ -24,6 +24,18 @@ float: left;
     top:500px
 }
 
+container{
+    position: relative;
+    top: 15px;
+}
+movable{
+    position: relative;
+    top: 0px;
+}
+.mover{
+    position: absolute;
+    top: 100px;
+}
 .move1{
     size: 500px;
     top: 30px;
